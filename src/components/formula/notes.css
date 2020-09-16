@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    background-color: beige;
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+
+}
+table{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 20px;
+
+}
+table thead tr td,
+table tbody tr td{
+border: 1px solid #d4d4d4;
+border-radius: 3px;
+padding: 5px;
+}
+.th{
+    color: darkorange;font-weight: 700;
+}
+.link{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;border: 2px solid blue;
+}
+.link:hover{
+    background-color: blue;
+    color: #fff;
+}

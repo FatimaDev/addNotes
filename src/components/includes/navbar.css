@@ -1,0 +1,15 @@
+body {
+    margin:0;padding: 0;box-sizing: border-box;
+}
+.header{
+    display: flex;flex-direction: row;justify-content: flex-start;align-items: center;background: #264653;
+}
+.logo{
+    color: #fff;margin-right: 20px;padding-left:30px;font-weight: 300;font-size: 18px;
+}
+nav{
+    display: flex;flex-direction: row;justify-content: flex-end;align-items: center;
+}
+nav a{
+    color: #fff;margin-right: 20px;font-weight: 300;font-size: 18px;text-decoration: none;
+}
